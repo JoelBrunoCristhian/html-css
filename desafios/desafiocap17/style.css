@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+@media (max-width: 625px) {
+
+    /**mobile**/
+
+    main{
+        text-align: justify;
+        width: 500px;
+        margin: auto;
+
+        
+    }
+    img{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 626px) and (max-width: 1025px){
+
+    /**TABLETS**/
+
+    main{
+        text-align: justify;
+        width: 900px;
+        margin: auto;
+    }
+    img{
+        width: 900px;
+        height: 500px;
+    }
+}
+@media (min-width: 1026px){
+     
+    /**Desltop**/
+
+    main{
+        text-align: center;
+        text-align: justify;
+        font-size: 25px;
+       margin: auto;
+        width: 870px;
+        
+    }
+    img{
+        display: block;
+        width: 850px;
+        margin: auto;
+    }
+}
+
+
+
