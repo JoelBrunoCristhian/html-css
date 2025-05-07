@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>alinhamento vertical</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px
+        }
+       .pai{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 98vh;
+           }
+        .filho{
+           
+            border: 3px solid black;
+            border-radius: 30px;
+            margin: 10px;
+            padding: 10px;
+            align-items: center;
+            text-align: center;
+        }
+        .filhojr{
+            
+            border: 3px solid black;
+            border-radius: 30px;
+            border-color: aqua;
+            color: aqua;
+            width: 80px;
+            margin: 10px;
+            padding: 10px;
+            align-items: center;
+            text-align: center;
+        }
+        
+
+       
+    </style>
+</head>
+<body>
+    <div class="pai">
+        <div class="filho">Acesse Aqui</div>
+        
+        <div class="filhojr">Email</div>
+        
+        <div class="filhojr">Senha</div>
+    </div>
+    
+</body>
+</html>
